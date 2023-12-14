@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Alegreya', serif;
+}
+.clear-fix{
+clear: both;
+}
+h1{
+   
+    font-size: 75px;
+}
+#home{
+
+    background-image: url('../images/drew-coffman-1872.jpg'); 
+    height: 120vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+   
+}
+.caption{
+   
+   
+    text-align: center;
+    padding-top: 120px;
+ 
+   
+
+ color: white;
+}
+.caption p{
+   font-size: 22px; 
+   line-height: 35px;
+   font-weight: 500;
+  
+}
+.caption button{
+    font-weight: 800;
+    padding:15px 28px;
+    
+   
+    
+   color: white;
+   border-radius: 3px;
+   margin-top: 30px;
+   margin-left: 10px;
+
+}
+.caption .btn1{
+
+border: none;
+background-color: #9D896A;
+
+
+
+}
+.caption .btn2{
+
+    border: solid white 2px;
+    background-color:transparent;
+    
+    
+}
+.navbar{
+   
+    padding: 20px 50px;
+   
+
+}
+.navbar img{
+    width: 175px;
+    float: left ;
+}
+.navbar ul{
+   float: right;
+   list-style: none;
+
+  
+}
+.navbar a{
+ text-decoration: none; 
+ color: white;
+  font-family: 'Alegreya', serif; 
+  font-size: 18px;
+ 
+}
+.navbar li{
+   
+    padding: 15px;
+    display: inline-block;
+}
+.whoare{
+    margin: 10px;
+    padding: 50px;
+    /* background-color: blueviolet; */
+
+}
+.whoare-info{
+  
+    width: 47.5%;
+    vertical-align: middle;
+    display: inline-block;
+    /* background-color: red; */
+}
+.whoare-info p,.ourlocation p{
+    line-height: 40px;
+    color: gray;
+    /* font-family: 'Alegreya', serif; */
+}
+.whoare-info h2,.ourlocation h2{
+    /* font-family: 'Alegreya', serif; */
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.whoare-info1{
+
+ padding: 8px; 
+ 
+}
+
+.whoare-info img{
+   
+    width: 100%;
+}
+.whoare-info1 img{
+    width: 40px;
+
+}
+.whoare-info ul{
+    list-style: none;
+    padding: 10px;
+
+}
+.whoare-info ul li p{
+display: inline;
+padding: 20px;
+}
+.ourlocation{
+    background-color: #F8F8F8;
+   padding: 50px;
+  
+
+}
+.ourlocation-info{
+    width: 49%;
+   
+    display: inline-block;
+    vertical-align: middle;
+}
+.ourlocation img{
+    width: 100%;
+}
+
+.ourbaking-info{
+    text-align: center;
+}
+.ourbaking-info h2,.ourbaking-info p,.contact h2{
+padding-bottom: 20px;
+padding-top: 10px;
+ font-family: 'Alegreya', serif;
+ 
+}
+.ourbaking-info p{
+    color: gray;
+}
+
+.bakingmenu{
+width: 25%;
+float: left;
+text-align: center;
+line-height: 30px;
+margin: 30px 50px;
+
+
+}
+.bakingmenu p,.contact p{
+    color: gray;
+    padding-top: 20px;
+    /* font-family: 'Alegreya', serif; */
+}
+.bakingmenu h3{
+    /* font-family: 'Alegreya', serif; */
+    padding: 10px;
+}
+.bakingmenu img{
+    width:100%;
+}
+.contact{
+    background-color :#F8F8F8 ;
+    padding: 50px 50px;
+}
+
+.contact-info{
+  width: 50%;
+  float:left; 
+ 
+}
+
+.image-map{
+
+width: 100%;
+}
+.contact-info ul{
+    
+
+list-style: none;
+text-align: left;
+}
+.contact-info ul li{
+    padding: 10px;
+} 
+.contact-info ul img{
+    width: 30px;
+} 
+.contact-info ul p{
+    padding-bottom: 30px;
+} 
+.aboutus{
+background-color:#403D38;
+padding: 20px 30px;
+color: rgb(128, 128, 128);
+background-image: url('../images/contact-details-map.png');
+background-repeat: no-repeat;
+background-position:  right;
+
+
+}
+.aboutus h3{
+    color: white;
+} 
+.aboutus-info{
+font-family: 'Alegreya', serif;
+width: 25%;
+float: left;
+/* background-color: bisque; */
+line-height: 30px;
+/* padding: 40px 40px; */
+/* margin: 10px; */
+}
+.aboutus-info img{
+width: 30px;
+}
+.aboutus-info .br{
+width: 300px;
+height: 2px;
+background-color: rgba(128, 128, 128, 0.236);
+}
+.aboutus-info p{
+    padding: 10px;
+}
+.footer{
+    padding: 30px 50px;
+    background-color: #353330 ;
+    text-align: center;
+}
+.footer img{
+    padding: 50px;
+}
+.footer .socialmedia img{
+    width:30px;
+    padding :10px;
+
+}
+.footer p{
+    color: gray;
+    padding-bottom: 20px;
+}
+
+ 
+
+
+
+
+    
+
+
+
+
+
+
+
+
